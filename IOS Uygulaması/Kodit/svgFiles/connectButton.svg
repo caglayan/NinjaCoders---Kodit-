@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="210px" height="185px" viewBox="0 0 210 185" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43 (38999) - http://www.bohemiancoding.com/sketch -->
+    <title>connectButton</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <ellipse id="path-1" cx="106.5" cy="71" rx="54.5" ry="55"></ellipse>
+        <filter x="-31.7%" y="-31.4%" width="163.3%" height="162.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="9" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.918138587   0 0 0 0 1   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="connectButton">
+            <g id="Oval-3">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use stroke="#F2C12E" stroke-width="12" fill-opacity="0.8" fill="#E74C3C" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <polygon id="Triangle" fill="#FFFFFF" style="mix-blend-mode: lighten;" transform="translate(112.750000, 72.500000) rotate(90.000000) translate(-112.750000, -72.500000) " points="112.75 53.75 137.25 91.25 88.25 91.25"></polygon>
+            <text id="Bağlan" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="40" font-weight="bold" letter-spacing="2.5999999" fill-opacity="0.77697577" fill="#FFFFFF">
+                <tspan x="33.6163429" y="175">Bağla</tspan>
+                <tspan x="155.456342" y="175">n</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3759D7611F6449AA00535831 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3759D7601F6449AA00535831 /* AppDelegate.swift */; };
+		3759D7631F6449AA00535831 /* GirisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3759D7621F6449AA00535831 /* GirisViewController.swift */; };
+		3759D7661F6449AA00535831 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3759D7641F6449AA00535831 /* Main.storyboard */; };
+		3759D7681F6449AA00535831 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3759D7671F6449AA00535831 /* Assets.xcassets */; };
+		3759D76B1F6449AA00535831 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3759D7691F6449AA00535831 /* LaunchScreen.storyboard */; };
+		3759D7761F6449AB00535831 /* KoditTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3759D7751F6449AB00535831 /* KoditTests.swift */; };
+		3759D7811F6449AB00535831 /* KoditUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3759D7801F6449AB00535831 /* KoditUITests.swift */; };
+		3786E5F61F66E9A300724DAA /* CodeBlockEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3786E5F51F66E9A300724DAA /* CodeBlockEngine.swift */; };
+		37A6C7541F673549008EA6D0 /* trash_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 37A6C7531F673549008EA6D0 /* trash_image.png */; };
+		37B5842A1F65579300DC06C9 /* KoditSytleKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B584291F65579300DC06C9 /* KoditSytleKit.swift */; };
+		37B584321F6569DA00DC06C9 /* customObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B584311F6569DA00DC06C9 /* customObjects.swift */; };
+		37B584341F657CAD00DC06C9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B584331F657CAD00DC06C9 /* MainViewController.swift */; };
+		37B584371F657E5900DC06C9 /* CodeBlockScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B584361F657E5900DC06C9 /* CodeBlockScrollView.swift */; };
+		37B584391F65841200DC06C9 /* CodeBlocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B584381F65841200DC06C9 /* CodeBlocks.swift */; };
+		37B950261F6713FB00DE86EA /* BluetoothEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B950251F6713FB00DE86EA /* BluetoothEngine.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3759D7721F6449AB00535831 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3759D7551F6449AA00535831 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3759D75C1F6449AA00535831;
+			remoteInfo = Kodit;
+		};
+		3759D77D1F6449AB00535831 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3759D7551F6449AA00535831 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3759D75C1F6449AA00535831;
+			remoteInfo = Kodit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3759D75D1F6449AA00535831 /* Kodit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kodit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3759D7601F6449AA00535831 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3759D7621F6449AA00535831 /* GirisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GirisViewController.swift; sourceTree = "<group>"; };
+		3759D7651F6449AA00535831 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3759D7671F6449AA00535831 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3759D76A1F6449AA00535831 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3759D76C1F6449AA00535831 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3759D7711F6449AB00535831 /* KoditTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KoditTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3759D7751F6449AB00535831 /* KoditTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoditTests.swift; sourceTree = "<group>"; };
+		3759D7771F6449AB00535831 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3759D77C1F6449AB00535831 /* KoditUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KoditUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3759D7801F6449AB00535831 /* KoditUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoditUITests.swift; sourceTree = "<group>"; };
+		3759D7821F6449AB00535831 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3786E5F51F66E9A300724DAA /* CodeBlockEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeBlockEngine.swift; sourceTree = "<group>"; };
+		37A6C7531F673549008EA6D0 /* trash_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trash_image.png; sourceTree = "<group>"; };
+		37B584291F65579300DC06C9 /* KoditSytleKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KoditSytleKit.swift; sourceTree = "<group>"; };
+		37B584311F6569DA00DC06C9 /* customObjects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customObjects.swift; sourceTree = "<group>"; };
+		37B584331F657CAD00DC06C9 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		37B584361F657E5900DC06C9 /* CodeBlockScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeBlockScrollView.swift; sourceTree = "<group>"; };
+		37B584381F65841200DC06C9 /* CodeBlocks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeBlocks.swift; sourceTree = "<group>"; };
+		37B950251F6713FB00DE86EA /* BluetoothEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothEngine.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3759D75A1F6449AA00535831 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3759D76E1F6449AB00535831 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3759D7791F6449AB00535831 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3759D7541F6449AA00535831 = {
+			isa = PBXGroup;
+			children = (
+				3759D75F1F6449AA00535831 /* Kodit */,
+				3759D7741F6449AB00535831 /* KoditTests */,
+				3759D77F1F6449AB00535831 /* KoditUITests */,
+				3759D75E1F6449AA00535831 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3759D75E1F6449AA00535831 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3759D75D1F6449AA00535831 /* Kodit.app */,
+				3759D7711F6449AB00535831 /* KoditTests.xctest */,
+				3759D77C1F6449AB00535831 /* KoditUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3759D75F1F6449AA00535831 /* Kodit */ = {
+			isa = PBXGroup;
+			children = (
+				3759D7601F6449AA00535831 /* AppDelegate.swift */,
+				3759D7621F6449AA00535831 /* GirisViewController.swift */,
+				37B584331F657CAD00DC06C9 /* MainViewController.swift */,
+				37B584361F657E5900DC06C9 /* CodeBlockScrollView.swift */,
+				37B584351F657DEB00DC06C9 /* supportClasses */,
+				3759D7641F6449AA00535831 /* Main.storyboard */,
+				3759D7671F6449AA00535831 /* Assets.xcassets */,
+				3759D7691F6449AA00535831 /* LaunchScreen.storyboard */,
+				3759D76C1F6449AA00535831 /* Info.plist */,
+			);
+			path = Kodit;
+			sourceTree = "<group>";
+		};
+		3759D7741F6449AB00535831 /* KoditTests */ = {
+			isa = PBXGroup;
+			children = (
+				3759D7751F6449AB00535831 /* KoditTests.swift */,
+				3759D7771F6449AB00535831 /* Info.plist */,
+			);
+			path = KoditTests;
+			sourceTree = "<group>";
+		};
+		3759D77F1F6449AB00535831 /* KoditUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3759D7801F6449AB00535831 /* KoditUITests.swift */,
+				3759D7821F6449AB00535831 /* Info.plist */,
+			);
+			path = KoditUITests;
+			sourceTree = "<group>";
+		};
+		37B584351F657DEB00DC06C9 /* supportClasses */ = {
+			isa = PBXGroup;
+			children = (
+				37A6C7531F673549008EA6D0 /* trash_image.png */,
+				37B584291F65579300DC06C9 /* KoditSytleKit.swift */,
+				37B584311F6569DA00DC06C9 /* customObjects.swift */,
+				37B584381F65841200DC06C9 /* CodeBlocks.swift */,
+				3786E5F51F66E9A300724DAA /* CodeBlockEngine.swift */,
+				37B950251F6713FB00DE86EA /* BluetoothEngine.swift */,
+			);
+			name = supportClasses;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3759D75C1F6449AA00535831 /* Kodit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3759D7851F6449AB00535831 /* Build configuration list for PBXNativeTarget "Kodit" */;
+			buildPhases = (
+				3759D7591F6449AA00535831 /* Sources */,
+				3759D75A1F6449AA00535831 /* Frameworks */,
+				3759D75B1F6449AA00535831 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kodit;
+			productName = Kodit;
+			productReference = 3759D75D1F6449AA00535831 /* Kodit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3759D7701F6449AB00535831 /* KoditTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3759D7881F6449AB00535831 /* Build configuration list for PBXNativeTarget "KoditTests" */;
+			buildPhases = (
+				3759D76D1F6449AB00535831 /* Sources */,
+				3759D76E1F6449AB00535831 /* Frameworks */,
+				3759D76F1F6449AB00535831 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3759D7731F6449AB00535831 /* PBXTargetDependency */,
+			);
+			name = KoditTests;
+			productName = KoditTests;
+			productReference = 3759D7711F6449AB00535831 /* KoditTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3759D77B1F6449AB00535831 /* KoditUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3759D78B1F6449AB00535831 /* Build configuration list for PBXNativeTarget "KoditUITests" */;
+			buildPhases = (
+				3759D7781F6449AB00535831 /* Sources */,
+				3759D7791F6449AB00535831 /* Frameworks */,
+				3759D77A1F6449AB00535831 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3759D77E1F6449AB00535831 /* PBXTargetDependency */,
+			);
+			name = KoditUITests;
+			productName = KoditUITests;
+			productReference = 3759D77C1F6449AB00535831 /* KoditUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3759D7551F6449AA00535831 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Caglayan Serbetci";
+				TargetAttributes = {
+					3759D75C1F6449AA00535831 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 5V526U52B4;
+						LastSwiftMigration = 1010;
+						ProvisioningStyle = Automatic;
+					};
+					3759D7701F6449AB00535831 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 5V526U52B4;
+						LastSwiftMigration = 1010;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3759D75C1F6449AA00535831;
+					};
+					3759D77B1F6449AB00535831 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 5V526U52B4;
+						LastSwiftMigration = 1010;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3759D75C1F6449AA00535831;
+					};
+				};
+			};
+			buildConfigurationList = 3759D7581F6449AA00535831 /* Build configuration list for PBXProject "Kodit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3759D7541F6449AA00535831;
+			productRefGroup = 3759D75E1F6449AA00535831 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3759D75C1F6449AA00535831 /* Kodit */,
+				3759D7701F6449AB00535831 /* KoditTests */,
+				3759D77B1F6449AB00535831 /* KoditUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3759D75B1F6449AA00535831 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3759D76B1F6449AA00535831 /* LaunchScreen.storyboard in Resources */,
+				3759D7681F6449AA00535831 /* Assets.xcassets in Resources */,
+				37A6C7541F673549008EA6D0 /* trash_image.png in Resources */,
+				3759D7661F6449AA00535831 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3759D76F1F6449AB00535831 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3759D77A1F6449AB00535831 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3759D7591F6449AA00535831 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3759D7631F6449AA00535831 /* GirisViewController.swift in Sources */,
+				37B5842A1F65579300DC06C9 /* KoditSytleKit.swift in Sources */,
+				37B950261F6713FB00DE86EA /* BluetoothEngine.swift in Sources */,
+				3759D7611F6449AA00535831 /* AppDelegate.swift in Sources */,
+				37B584321F6569DA00DC06C9 /* customObjects.swift in Sources */,
+				3786E5F61F66E9A300724DAA /* CodeBlockEngine.swift in Sources */,
+				37B584391F65841200DC06C9 /* CodeBlocks.swift in Sources */,
+				37B584371F657E5900DC06C9 /* CodeBlockScrollView.swift in Sources */,
+				37B584341F657CAD00DC06C9 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3759D76D1F6449AB00535831 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3759D7761F6449AB00535831 /* KoditTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3759D7781F6449AB00535831 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3759D7811F6449AB00535831 /* KoditUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3759D7731F6449AB00535831 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3759D75C1F6449AA00535831 /* Kodit */;
+			targetProxy = 3759D7721F6449AB00535831 /* PBXContainerItemProxy */;
+		};
+		3759D77E1F6449AB00535831 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3759D75C1F6449AA00535831 /* Kodit */;
+			targetProxy = 3759D77D1F6449AB00535831 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3759D7641F6449AA00535831 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3759D7651F6449AA00535831 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3759D7691F6449AA00535831 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3759D76A1F6449AA00535831 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3759D7831F6449AB00535831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3759D7841F6449AB00535831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3759D7861F6449AB00535831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5V526U52B4;
+				INFOPLIST_FILE = Kodit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.electrosalus.Kodit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3759D7871F6449AB00535831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5V526U52B4;
+				INFOPLIST_FILE = Kodit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.electrosalus.Kodit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3759D7891F6449AB00535831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5V526U52B4;
+				INFOPLIST_FILE = KoditTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.electrosalus.KoditTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kodit.app/Kodit";
+			};
+			name = Debug;
+		};
+		3759D78A1F6449AB00535831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5V526U52B4;
+				INFOPLIST_FILE = KoditTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.electrosalus.KoditTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kodit.app/Kodit";
+			};
+			name = Release;
+		};
+		3759D78C1F6449AB00535831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 5V526U52B4;
+				INFOPLIST_FILE = KoditUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.electrosalus.KoditUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = Kodit;
+			};
+			name = Debug;
+		};
+		3759D78D1F6449AB00535831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 5V526U52B4;
+				INFOPLIST_FILE = KoditUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.electrosalus.KoditUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = Kodit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3759D7581F6449AA00535831 /* Build configuration list for PBXProject "Kodit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3759D7831F6449AB00535831 /* Debug */,
+				3759D7841F6449AB00535831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3759D7851F6449AB00535831 /* Build configuration list for PBXNativeTarget "Kodit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3759D7861F6449AB00535831 /* Debug */,
+				3759D7871F6449AB00535831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3759D7881F6449AB00535831 /* Build configuration list for PBXNativeTarget "KoditTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3759D7891F6449AB00535831 /* Debug */,
+				3759D78A1F6449AB00535831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3759D78B1F6449AB00535831 /* Build configuration list for PBXNativeTarget "KoditUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3759D78C1F6449AB00535831 /* Debug */,
+				3759D78D1F6449AB00535831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3759D7551F6449AA00535831 /* Project object */;
+}

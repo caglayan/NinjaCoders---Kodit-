@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="YzB-qb-AVR">
+    <device id="ipad9_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Giris View Controller-->
+        <scene sceneID="9vj-fO-ku4">
+            <objects>
+                <viewController id="YzB-qb-AVR" customClass="GirisViewController" customModule="Kodit" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zEI-rm-5a7"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ebu-S2-erx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mOw-Na-bCu">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="koditName.png" translatesAutoresizingMaskIntoConstraints="NO" id="0Us-Bq-v8i">
+                                <rect key="frame" x="212" y="34" width="600" height="400"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="GXL-gv-7Pu">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="600"/>
+                                    </constraint>
+                                    <constraint firstAttribute="height" constant="200" id="aiW-iF-awi">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="400"/>
+                                    </constraint>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kodit_car" translatesAutoresizingMaskIntoConstraints="NO" id="bGc-ie-ovD">
+                                <rect key="frame" x="387" y="434" width="250" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="132" id="PU4-9l-bj0">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="200"/>
+                                    </constraint>
+                                    <constraint firstAttribute="width" constant="160" id="xiO-9W-ESP">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="250"/>
+                                    </constraint>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XHY-UG-ksZ" customClass="connectButton" customModule="Kodit" customModuleProvider="target">
+                                <rect key="frame" x="-188" y="434" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="132" id="Bg0-Ea-ONr">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="200"/>
+                                    </constraint>
+                                    <constraint firstAttribute="width" constant="132" id="Cr4-1i-fMS">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="200"/>
+                                    </constraint>
+                                </constraints>
+                                <connections>
+                                    <action selector="connectButtonAction:" destination="YzB-qb-AVR" eventType="touchUpInside" id="ZKF-8P-smx"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1647058824" green="0.0" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="0Us-Bq-v8i" firstAttribute="centerX" secondItem="mOw-Na-bCu" secondAttribute="centerX" id="BXj-D8-96P"/>
+                            <constraint firstItem="0Us-Bq-v8i" firstAttribute="centerY" secondItem="mOw-Na-bCu" secondAttribute="centerY" constant="-100" id="RB9-sR-KX3">
+                                <variation key="heightClass=regular-widthClass=regular" constant="-150"/>
+                            </constraint>
+                            <constraint firstItem="XHY-UG-ksZ" firstAttribute="centerY" secondItem="mOw-Na-bCu" secondAttribute="centerY" constant="90" id="hKN-tO-b1f">
+                                <variation key="heightClass=regular-widthClass=regular" constant="150"/>
+                            </constraint>
+                            <constraint firstItem="bGc-ie-ovD" firstAttribute="centerX" secondItem="mOw-Na-bCu" secondAttribute="centerX" id="kdN-hl-GP0"/>
+                            <constraint firstItem="XHY-UG-ksZ" firstAttribute="centerX" secondItem="mOw-Na-bCu" secondAttribute="centerX" constant="-400" id="pWN-Ma-vgK">
+                                <variation key="heightClass=regular-widthClass=regular" constant="-600"/>
+                            </constraint>
+                            <constraint firstItem="bGc-ie-ovD" firstAttribute="centerY" secondItem="mOw-Na-bCu" secondAttribute="centerY" constant="90" id="zBM-xP-pse">
+                                <variation key="heightClass=regular-widthClass=regular" constant="150"/>
+                            </constraint>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="connectButton" destination="XHY-UG-ksZ" id="W6q-DF-Lvn"/>
+                        <outlet property="connectButtonHorizontalConstrait" destination="pWN-Ma-vgK" id="lv7-6x-NAB"/>
+                        <outlet property="koditCarHorizontalConstrait" destination="kdN-hl-GP0" id="BGf-CA-Fia"/>
+                        <outlet property="koditCarImageView" destination="bGc-ie-ovD" id="FtP-CG-FYt"/>
+                        <segue destination="H1q-Iu-Tny" kind="presentation" identifier="toMainScreenSegue" modalTransitionStyle="crossDissolve" id="UCv-9U-hJY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b6L-AS-nS5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-380" y="-60"/>
+        </scene>
+        <!--Main View Controller-->
+        <scene sceneID="tgv-Et-9Tu">
+            <objects>
+                <viewController id="H1q-Iu-Tny" customClass="MainViewController" customModule="Kodit" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uCc-6n-m5b"/>
+                        <viewControllerLayoutGuide type="bottom" id="GZD-Vs-4DB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="q1S-5u-bIu">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QwM-n6-W0d" customClass="CodeBlockScrollView" customModule="Kodit" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="300" height="768"/>
+                                <color key="backgroundColor" red="0.90196078431372551" green="0.49411764705882355" blue="0.13333333333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="iJX-xD-G1m"/>
+                                </constraints>
+                            </scrollView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="başla" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gUy-yG-8Zw">
+                                <rect key="frame" x="587" y="40" width="150" height="48"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="40"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DVm-jP-pFe" customClass="startBlock" customModule="Kodit" customModuleProvider="target">
+                                <rect key="frame" x="587" y="98" width="150" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="DcR-jr-Jvz"/>
+                                    <constraint firstAttribute="height" constant="30" id="wAK-k1-w14"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TsK-yW-wua" customClass="sendButton" customModule="Kodit" customModuleProvider="target">
+                                <rect key="frame" x="240" y="324" width="120" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="0gG-ii-rwr"/>
+                                    <constraint firstAttribute="height" constant="120" id="g2X-P6-P7Q"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="connectButtonAction:" destination="H1q-Iu-Tny" eventType="touchUpInside" id="PYH-VO-zCH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1647058824" green="0.0" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="gUy-yG-8Zw" firstAttribute="centerX" secondItem="q1S-5u-bIu" secondAttribute="centerX" constant="150" id="1EV-E5-3HW"/>
+                            <constraint firstItem="DVm-jP-pFe" firstAttribute="centerX" secondItem="q1S-5u-bIu" secondAttribute="centerX" constant="150" id="9Nb-Hb-y86"/>
+                            <constraint firstItem="DVm-jP-pFe" firstAttribute="leading" secondItem="gUy-yG-8Zw" secondAttribute="leading" id="AJM-Mc-1Lb"/>
+                            <constraint firstItem="QwM-n6-W0d" firstAttribute="left" secondItem="q1S-5u-bIu" secondAttribute="left" id="Kyq-Fa-KoF"/>
+                            <constraint firstItem="QwM-n6-W0d" firstAttribute="top" secondItem="q1S-5u-bIu" secondAttribute="topMargin" id="Y4v-Mn-RBv"/>
+                            <constraint firstItem="TsK-yW-wua" firstAttribute="centerY" secondItem="q1S-5u-bIu" secondAttribute="centerY" id="Yl1-h2-Jl3"/>
+                            <constraint firstItem="DVm-jP-pFe" firstAttribute="top" secondItem="gUy-yG-8Zw" secondAttribute="bottom" constant="10" id="irc-LR-19O"/>
+                            <constraint firstItem="TsK-yW-wua" firstAttribute="centerX" secondItem="QwM-n6-W0d" secondAttribute="centerX" constant="150" id="pyt-Uw-ZiA"/>
+                            <constraint firstItem="GZD-Vs-4DB" firstAttribute="top" secondItem="QwM-n6-W0d" secondAttribute="bottom" id="qlw-GL-OFl"/>
+                            <constraint firstItem="gUy-yG-8Zw" firstAttribute="top" secondItem="uCc-6n-m5b" secondAttribute="bottom" constant="20" id="vJu-ne-rmc"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="codeBlockScrollView" destination="QwM-n6-W0d" id="hgX-nK-Isu"/>
+                        <outlet property="connectButton" destination="TsK-yW-wua" id="ZYW-NC-pY9"/>
+                        <outlet property="startBlock" destination="DVm-jP-pFe" id="Pue-jz-B6j"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UkK-6R-BmT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="366.796875" y="-60.15625"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="koditName.png" width="860" height="215"/>
+        <image name="kodit_car" width="250" height="200"/>
+    </resources>
+</document>

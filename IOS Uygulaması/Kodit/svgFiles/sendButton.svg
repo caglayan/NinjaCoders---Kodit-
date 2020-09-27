@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43 (38999) - http://www.bohemiancoding.com/sketch -->
+    <title>sendButton</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="gönderButton">
+            <g id="sendButton" transform="translate(5.000000, 5.000000)">
+                <circle id="Oval-3" stroke="#FFFFFF" stroke-width="9" fill="#E74C3C" cx="55" cy="55" r="55"></circle>
+                <path d="M62.1441823,35.6664591 C68.1259846,35.6664591 85.5376389,74.3026242 85.5376389,74.3026242 C85.5376389,74.3026242 85.7825093,75.0139364 85.5376389,75.3622193 C85.3218429,75.6691495 84.6163062,75.6130505 84.6163062,75.6130505 L40.1090818,75.6130505 C38.3859505,75.6130505 38.0360278,75.6956121 37.5668152,75.0021872 C37.028361,74.2064336 38.0937484,72.6346936 38.0937484,72.6346936 C38.0937484,72.6346936 56.5561059,35.6664591 62.1441823,35.6664591 Z" id="Triangle" fill="#FFFFFF" style="mix-blend-mode: lighten;" transform="translate(61.530655, 55.641765) rotate(90.000000) translate(-61.530655, -55.641765) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
